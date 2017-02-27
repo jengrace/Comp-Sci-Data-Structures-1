@@ -1,0 +1,64 @@
+Discussion Questions
+
+====== Runtime ====== 
+
+1. The workload would be the amount of animals crackers to "iterate" through, 
+checking if any is an elephant.
+
+2. O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(2^n)
+
+====== Stacks and Queues ======
+
+1.
+    1. Stack
+    2. Queue
+    3. Queue
+
+2. A queue would be an appropiate data structure for a resturaunt timestamped 
+   ticket system to ensure that customers who ordered first get their meals before
+   customers who ordered after them. Another situation would be getting in line 
+   to get off the bus. The first person in line should be the first one to leave.
+
+3. A stack would be appropiate for placing dishes in the dishwasher. Usually
+   the last plate added to the sink pile is the first one to be removed. Another
+   situation for a stack data structure would be when removing a cup from the 
+   cupboard. Usually the last cup put away is the first one to get used.
+
+
+====== Linked Lists ======
+
+1. The nodes of the linked list are each box that contains a data and next entity.
+   The data for each node is the string text. The head is the very first node 
+   ("Apple"|next) and where most operations begin. The tail is the last node 
+   ("Cherry"|next) that points to None.
+
+2. A doubly linked list can go in a forwards or backwards direction. Each node 
+   contains data, previous pointer and a next pointer. A singly linked list
+   can only go forwards, not backwards.
+
+3. It's faster to append to a linked list if we keep track of the tail because
+   you don't have to search for the last node to know where it is. 
+
+====== Trees ======
+
+1. Order of nodes visited (BFS):
+    1. food
+    2. Italian, Indian, Mexican
+    3. lasagna, pizza 
+    4. tikka masala, saag
+    5. burritos
+
+
+2. Order of nodes visited (DFS):
+    1. food
+    2. Italian
+    3. lasagna
+    4. Italian
+    5. pizza
+    6. thin crust
+    7. pizza
+    8. Chicago-style
+
+3. Each node of a binary search tree can have only a left and right child node 
+   and the complexity of traversing it is predictable. Unlike for other trees, 
+   you won't know the complexity until inspecting it.
